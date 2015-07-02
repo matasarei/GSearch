@@ -16,4 +16,4 @@ var_dump($results);
 ```
 
 ##Caching
-This code supports caching. You have to set up writable path to allow the class save and process caches ("./cache/" by default).
+This code supports caching. You have to set up writable path to allow cache processing ("./cache/" by default).
