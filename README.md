@@ -3,11 +3,11 @@ Google Search for PHP
 
 ## Usage
 ```php
-//Just create new search object
+//Just create a new instance
 $search = new GSearch();
-//or you cant set cache time (minutes) and path
+//You can set cache timeout (hours) and path
 $search = new GSearch(24, './cache/');
-//or even without caching
+//...or even without caching
 $search = new GSearch(false, false);
 
 //And try it
